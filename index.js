@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || Math.floor(Math.random() * 6000) + 3000;
 
 app.get('/', (req, res) => {
-    res.send('Hello World from Node.js and Jenkins on Windows!');
+    res.send('Hello World from Manas on Windows!');
 });
 
 app.listen(port, () => {
